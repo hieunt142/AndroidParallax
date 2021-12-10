@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidParallax.iml" filepath="$PROJECT_DIR$/AndroidParallax.iml" />
-      <module fileurl="file://$PROJECT_DIR$/androidparallax/androidparallax.iml" filepath="$PROJECT_DIR$/androidparallax/androidparallax.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidparallax/AndroidParallax.androidparallax.iml" filepath="$PROJECT_DIR$/.idea/modules/androidparallax/AndroidParallax.androidparallax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/AndroidParallax.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/AndroidParallax.sample.iml" />
     </modules>
   </component>
 </project>
