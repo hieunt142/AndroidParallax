@@ -1,7 +1,7 @@
 
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'com.jfrog.bintray'
 
 version = "1.0.1"
 
@@ -50,7 +50,7 @@ group = "com.github.hieunt142"                      // Maven Group ID for the ar
 //
 //                // Add your description here
 //                name 'AndroidParallax'
-//                description = ''
+//                description = ''git
 //                url siteUrl
 //
 //                // Set your license
