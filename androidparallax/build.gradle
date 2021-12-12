@@ -7,7 +7,6 @@ version = "1.0.1"
 
 android {
     compileSdkVersion project.ANDROID_BUILD_SDK_VERSION
-    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
 
     defaultConfig {
         minSdkVersion project.ANDROID_BUILD_MIN_SDK_VERSION
@@ -26,9 +25,10 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':library')
 
-    implementation 'com.github.ksoichiro:android-observablescrollview:1.5.2'
-    implementation 'com.nineoldandroids:library:2.4.0'
+//    implementation 'com.github.ksoichiro:android-observablescrollview:1.5.2'
+//    implementation 'com.nineoldandroids:library:2.4.0'
 }
 
 //https://github.com/danielemaddaluno/gradle-jcenter-publish
@@ -82,19 +82,19 @@ task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
 }
-
-task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
+//
+//task javadoc(type: Javadoc) {
+//    source = android.sourceSets.main.java.srcDirs
+//    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+//}
+//
+//task javadocJar(type: Jar, dependsOn: javadoc) {
+//    classifier = 'javadoc'
+//    from javadoc.destinationDir
+//}
 
 artifacts {
-    archives javadocJar
+//    archives javadocJar
     archives sourcesJar
 }
 

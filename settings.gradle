@@ -1,1 +1,1 @@
-include ':androidparallax', ':sample'
+include ':androidparallax', ':sample' , ':library'

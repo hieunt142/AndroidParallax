@@ -3,10 +3,9 @@ package com.github.florent37.parallax;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.view.ViewDebug;
+
 import android.widget.FrameLayout;
 
-import com.nineoldandroids.view.ViewHelper;
 
 /**
  * Created by florentchampigny on 21/07/15.

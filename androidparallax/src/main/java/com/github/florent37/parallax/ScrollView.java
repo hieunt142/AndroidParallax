@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
 import com.github.ksoichiro.android.observablescrollview.ScrollState;
-import com.nineoldandroids.view.ViewHelper;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -2,7 +2,8 @@ package com.github.florent37.parallax;
 
 import android.view.View;
 
-import com.nineoldandroids.view.ViewHelper;
+import com.github.florent37.parallax.nineoldandroids.view.ViewHelper;
+
 
 /**
  * Created by florentchampigny on 22/07/15.
