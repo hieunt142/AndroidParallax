@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-    implementation 'com.android.support:recyclerview-v7:23.1.1'
-    androidTestImplementation ('com.android.support:appcompat-v7:23.1.1') {
+    implementation 'com.android.support:recyclerview-v7:22.2.1'
+    androidTestImplementation ('com.android.support:appcompat-v7:22.2.1') {
         exclude module: 'support-v4'
     }
     androidTestImplementation ('com.nineoldandroids:library:2.4.0') {
@@ -11,7 +11,7 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 22
 
     defaultConfig {
         minSdkVersion 9
